@@ -1,5 +1,6 @@
 body {
     background-image: linear-gradient(to right, #f7797d, #fbd786,  #c6ffdd, #fbd786, #f7797d);
+    max-height: fit-content;
 
 }
 .mainbox {
@@ -16,24 +17,25 @@ body {
 
 .username {
     display: flex;
-    width: 300px;
+    width: 240px;
     height: 50px;
     position: absolute;
-    left: 350px;
-    top: 200px;
+    left: 410px;
+    top: 150px;
     font-family: monospace;
     text-align: left;
     color: black;
     background-color: white;
-    border-radius: 10px;
-    border-color: black;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 3px solid lightgrey;
+    border-left-color: transparent;
 }
 
 .username ::placeholder {
     font-family: monospace;
     font-size: larger;
     position: absolute;
-    color: black;
     left: 450px;
     top: 200px;
 }
@@ -49,17 +51,19 @@ body {
 
 .password {
     display: flex;
-    width: 300px;
+    width: 240px;
     height: 50px;
     position: absolute;
-    left: 350px;
-    top: 300px;
+    left: 410px;
+    top: 250px;
     font-family: monospace;
     text-align: left;
     color: black;
     background-color: white;
-    border-radius: 10px;
-    border-color: black;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 3px solid lightgrey;
+    border-left-color: transparent;
 }
 
 .sidepic img {
@@ -77,21 +81,22 @@ button {
     height: 40px;
     width: 85px;
     border-radius: 5px;
-    background-color: lightskyblue;
-    border-color: black;
-    font-family: cursive;
+    background-color: #2478ed;
+    border-color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     position:absolute;
     left: 550px;
-    top: 395px;
+    top: 325px;
+    color:white;
 }
 
 .check {
-    border-radius: 10px;
-    font-family: cursive;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     position: absolute;
     left: 350px;
-    top: 402.5px;
+    top: 332.5px;
     z-index: 1;
+    font-size: 15px;
 }
 
 .x {
@@ -104,14 +109,129 @@ button {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.rememberme {
-    height: 40px;
-    width: 125px;
-    border-radius: 5px;
-    background-color: lightskyblue;
-    border-color: black;
-    font-family: cursive;
+.or {
     position:absolute;
+    left:365px;
+    top:400px;
+    color:lightgray;
+    font-family: monospace;
+}
+.twttr img {
+    height:40px;
+    width:40px;
+    z-index: 1;
+    position:absolute;
+    left:370px;
+    top:450px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.logtwttr {
+    height:40px;
+    width:200px;
+    position:absolute;
+    left:410px;
+    top:450px;
+    background-color: #00b9fb;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.twttrtext {
+    position:relative;
+    top:10px;
+}
+
+.facebook img {
+    height:40px;
+    width:40px;
+    z-index: 1;
+    position:absolute;
+    left:370px;
+    top:525px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.logfacebook {
+    height:40px;
+    width:200px;
+    position:absolute;
+    left:410px;
+    top:525px;
+    background-color: #6890e7;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.facebooktext {
+    position:relative;
+    top:10px;
+}
+
+.pfp img {
+    height:60px;
+    width: 60px;
+    z-index: 1;
+    position:absolute;
+    left:355px;
+    top:150px;
+}
+
+.vertical {
+    display: flex;
+    width: 70px;
+    height: 50px;
+    position: absolute;
     left: 350px;
-    top: 395px;
+    top: 150px;
+    font-family: monospace;
+    text-align: left;
+    color: black;
+    background-color: transparent;
+    border-radius: 10px;
+    border-left-color: transparent;
+    border-right-color: lightgray;
+}
+
+.keylogo img {
+    height:60px;
+    width: 55px;
+    z-index: 1;
+    position:absolute;
+    left:357.5px;
+    top:252.5px;
+}
+
+.sq {
+    height:52px;
+    width:50px;
+    left:355.5px;
+    position:absolute;
+    top:150px;
+    border:3px solid lightgrey;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: white;
+}
+
+.sq2 {
+    height:52px;
+    width:50px;
+    left:355.5px;
+    position:absolute;
+    top:250px;
+    border:3px solid lightgrey;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: white;
 }
